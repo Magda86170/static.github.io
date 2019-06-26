@@ -1,3 +1,43 @@
-h1 {
-  color: red;
-}
+body {background: #FFAFBD;  
+background: -webkit-linear-gradient(to top, #ffc3a0, #FFAFBD);  
+background: linear-gradient(to top, #ffc3a0, #FFAFBD); 
+ ; font-family: times new roman; text-align: center;}
+
+h1 {color: darkblue;font-size: 120px; justify-content: center; font-family: monospace; }
+
+h2	{font-style: italic; font-size: 60px; font-family: cursive; }
+
+h3 {display: flex; justify-content: flex-end;
+writing-mode: vertical-lr;}
+
+p {font-size: 20px ; text-align: center;}
+
+a {text-decoration: none;}
+
+.footer { background: white; text-decoration: underline; display: flex; align-items: center; justify-content: space-between; font-size: 20px;}
+
+.navbar {background: #FF0099;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #493240, #FF0099); 
+display: flex;
+justify-content: space-between;
+color: white; text-decoration: underline;}
+
+.pagination {display: flex; justify-content: flex-end;  align-items: flex-end; }
+
+.cadre1 {background: ;
+border: 3px solid #C2487F;
+margin: 50px;
+padding: 150px;
+border-radius: 150px;{}
+
+.ul {font-size: 25px; font-style: oblique;{}
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+.box-w hite {background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */{}
+
+
